@@ -14,7 +14,7 @@
 
 ## Screenshots
 
-<img src="screenshots/screenshot_1" alt="Main Page" title="Main Page">
+![Main Page](screenshots/screenshot_1.png)
 
 ## File tree
 📦twitter_50 <br>
