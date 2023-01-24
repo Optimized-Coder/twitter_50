@@ -1,4 +1,4 @@
-<h1 align="center"><twitter_50></h1>
+<h1 align="centerTwitter Top 50</h1>
 
 <p align="center"><project-description>
  In this project, I use pandas and the Jinja templating engine to extract raw data from a csv file (Source: https://www.kaggle.com/datasets/devrimtuner/top-50-list-of-mostfollowed-twitter-accounts) to desploy in a Flask web application, that follows the Material UI design principles and scroll animation to create a virually appealing frontend
