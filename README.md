@@ -1,35 +1,43 @@
-# qwk-flask
-A flask quick-start module to get building immediately 
+<h1 align="center"><twitter_50></h1>
 
-## File tree
-📦core 
- ┣ 📂main
- ┃ ┣ 📜routes.py
- ┃ ┗ 📜__init__.py
- ┣ 📂static
- ┃ ┣ 📜main.css
- ┃ ┗ 📜script.js
- ┣ 📂templates
- ┃ ┣ 📜base.html
- ┃ ┗ 📜index.html
- ┣ 📜models.py
- ┗ 📜__init__.py
-┣ app.py 
+<p align="center"><project-description>
+ In this project, I use pandas and the Jinja templating engine to extract raw data from a csv file (Source: https://www.kaggle.com/datasets/devrimtuner/top-50-list-of-mostfollowed-twitter-accounts) to desploy in a Flask web application, that follows the Material UI design principles and scroll animation to create a virually appealing frontend
+ </p>
 
-## Includes
-- run file (app.py)
-- templates folder - w/ base and index.html
-- main blueprint for your app - initialized 
-- static folder - for CSS, JS, IMG's
-- models folder 
-- __init__.py where the main factory function (create_app()) exists
+## Links
 
-## To do
-- git clone https://github.com/Optimized-Coder/qwk-flask.git
-- add .env file
-    - $ git touch .env
-    - set my_secret_key to your secret key
+- [Repo](https://github.com/Rohit19060/twitter_50 "Twitter Top 50 Repo")
 
-Then you're ready to start building your app with more routes and styles! 
 
-P.S. app is set to port(5050) as I was already running :5000 on my local server at the time of building
+- [Bugs](https://github.com/Rohit19060/twitter_50/issues "Issues Page")
+
+
+## Screenshots
+
+![Home Page](/screenshots/sceenshot_1.png "Home Page")
+
+
+- Python
+- Pandas
+- Flask
+- Jinja
+- HTML
+- CSS
+
+## Future Updates
+
+Add Dark Theme
+Add Introduction
+
+## Author
+
+**Josh Shepherd**
+
+- [Profile](https://github.com/Optimized-Coder "Josh Shepherd")
+- [Email](mailto:joshuashepherd877@gmail.com?subject=Hi "Hi!")
+
+## 🤝 Support
+
+Contributions, issues, and feature requests are welcome!
+
+Give a ⭐️ if you like this project!
