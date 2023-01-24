@@ -16,6 +16,34 @@
 
 ![Home Page](/screenshots/sceenshot_1.png "Home Page")
 
+## File tree
+📦twitter_50
+ ┣ 📂core
+ ┃ ┣ 📂data
+ ┃ ┃ ┣ 📜data.py
+ ┃ ┃ ┗ 📜twitter_accounts.csv
+ ┃ ┣ 📂main
+ ┃ ┃ ┣ 📜routes.py
+ ┃ ┃ ┗ 📜__init__.py
+ ┃ ┣ 📂static
+ ┃ ┃ ┣ 📂img
+ ┃ ┃ ┃ ┗ 📜flask_logo.png
+ ┃ ┃ ┣ 📜main.css
+ ┃ ┃ ┗ 📜script.js
+ ┃ ┣ 📂templates
+ ┃ ┃ ┣ 📜base.html
+ ┃ ┃ ┗ 📜index.html
+ ┃ ┣ 📜models.py
+ ┃ ┗ 📜__init__.py
+ ┣ 📂screenshots
+ ┃ ┗ 📜screenshot_1.png
+ ┣ 📜.env
+ ┣ 📜.gitignore
+ ┣ 📜app.py
+ ┣ 📜file_tree.txt
+ ┣ 📜README.md
+ ┗ 📜requirements.txt
+
 ## Tech Used
 
 - Python
