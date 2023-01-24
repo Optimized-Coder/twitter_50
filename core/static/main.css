@@ -1,0 +1,149 @@
+/* 
+    Globals
+*/
+
+:root {
+    /* 
+        Light Scheme
+    */
+    --primary: #00629d;
+    --on-primary: #ffffff;
+    --primary-container: #cfe5ff;
+    --on-primary-container:#001d33
+    --outline: #72777f;
+    --background: #1a1c1e;
+    --on-background: #e2e2e5;
+    /* 
+        Dark Scheme
+    */
+    --dark-primary: #00629d;
+    --dark-on-primary: #ffffff;
+    --dark-primary-container: #cfe5ff;
+    --dark-on-primary-container:#001d33
+    --dark-outline: #72777f;
+    --dark-background: #1a1c1e;
+    --dark-on-background: #e2e2e5;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    line-height: 1.5;
+    padding: 1rem 0;
+}
+
+/* 
+    Header
+*/
+
+header {
+    min-height: 10vh;
+    max-width: 100vw;
+    padding: 1rem 5rem;
+    position: sticky;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary);
+    color: var(--on-primary);
+} header h1 {
+    font-size: 1.6rem;
+}
+
+header nav.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header nav.main-nav li {
+    list-style-type: none;
+}
+header nav.main-nav a {
+    text-decoration: none;
+    color: var(--on-primary);
+    padding: .5rem 3rem;
+}
+header nav.main-nav a:hover {
+    text-decoration: underline;
+    color: var(--on-background);
+    background-color:var(--background);
+}
+/* 
+    Main
+*/
+main {
+    min-height: 80vh;
+    max-width: 100vw;
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+section#contents {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1.2rem 5rem;
+    width: 60%;
+}
+
+
+
+
+table {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+td {
+    padding: 0.75rem;
+    border-bottom: 1px solid var(--primary);
+    text-align: center;
+}
+
+section#country table {
+    width: 100%;
+    margin: 2rem 0;
+    background-color: var(--primary-container);
+    color: var(--dark-on-primary-container);
+}
+
+section#country td {
+    padding: 0.75rem;
+    border-bottom: 1px solid var(--primary);
+    text-align: center;
+}
+
+/* 
+    Footer
+*/
+footer {
+    min-height: 10vh;
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--primary);
+    color: var(--on-primary);
+}
+
+footer a {
+    text-decoration: none;
+    color:white;
+}
+footer a:hover {
+    text-decoration: underline;
+}
