@@ -1,13 +1,26 @@
-📦core
- ┣ 📂main
- ┃ ┣ 📜routes.py
+📦twitter_50
+ ┣ 📂core
+ ┃ ┣ 📂data
+ ┃ ┃ ┣ 📜data.py
+ ┃ ┃ ┗ 📜twitter_accounts.csv
+ ┃ ┣ 📂main
+ ┃ ┃ ┣ 📜routes.py
+ ┃ ┃ ┗ 📜__init__.py
+ ┃ ┣ 📂static
+ ┃ ┃ ┣ 📂img
+ ┃ ┃ ┃ ┗ 📜flask_logo.png
+ ┃ ┃ ┣ 📜main.css
+ ┃ ┃ ┗ 📜script.js
+ ┃ ┣ 📂templates
+ ┃ ┃ ┣ 📜base.html
+ ┃ ┃ ┗ 📜index.html
+ ┃ ┣ 📜models.py
  ┃ ┗ 📜__init__.py
- ┣ 📂static
- ┃ ┣ 📜main.css
- ┃ ┗ 📜script.js
- ┣ 📂templates
- ┃ ┣ 📜base.html
- ┃ ┗ 📜index.html
- ┣ 📜models.py
- ┗ 📜__init__.py
-┣ app.py 
+ ┣ 📂screenshots
+ ┃ ┗ 📜screenshot_1.png
+ ┣ 📜.env
+ ┣ 📜.gitignore
+ ┣ 📜app.py
+ ┣ 📜file_tree.txt
+ ┣ 📜README.md
+ ┗ 📜requirements.txt
