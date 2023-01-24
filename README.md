@@ -17,32 +17,32 @@
 ![Home Page](/screenshots/sceenshot_1.png "Home Page")
 
 ## File tree
-📦twitter_50
- ┣ 📂core
- ┃ ┣ 📂data
- ┃ ┃ ┣ 📜data.py
- ┃ ┃ ┗ 📜twitter_accounts.csv
- ┃ ┣ 📂main
- ┃ ┃ ┣ 📜routes.py
- ┃ ┃ ┗ 📜__init__.py
- ┃ ┣ 📂static
- ┃ ┃ ┣ 📂img
- ┃ ┃ ┃ ┗ 📜flask_logo.png
- ┃ ┃ ┣ 📜main.css
- ┃ ┃ ┗ 📜script.js
- ┃ ┣ 📂templates
- ┃ ┃ ┣ 📜base.html
- ┃ ┃ ┗ 📜index.html
- ┃ ┣ 📜models.py
- ┃ ┗ 📜__init__.py
- ┣ 📂screenshots
- ┃ ┗ 📜screenshot_1.png
- ┣ 📜.env
- ┣ 📜.gitignore
- ┣ 📜app.py
- ┣ 📜file_tree.txt
- ┣ 📜README.md
- ┗ 📜requirements.txt
+📦twitter_50 <br>
+ ┣ 📂core <br>
+ ┃ ┣ 📂data <br>
+ ┃ ┃ ┣ 📜data.py <br>
+ ┃ ┃ ┗ 📜twitter_accounts.csv <br>
+ ┃ ┣ 📂main <br>
+ ┃ ┃ ┣ 📜routes.py <br>
+ ┃ ┃ ┗ 📜__init__.py <br>
+ ┃ ┣ 📂static <br>
+ ┃ ┃ ┣ 📂img <br>
+ ┃ ┃ ┃ ┗ 📜flask_logo.png <br>
+ ┃ ┃ ┣ 📜main.css <br>
+ ┃ ┃ ┗ 📜script.js <br>
+ ┃ ┣ 📂templates <br>
+ ┃ ┃ ┣ 📜base.html <br>
+ ┃ ┃ ┗ 📜index.html <br>
+ ┃ ┣ 📜models.py <br>
+ ┃ ┗ 📜__init__.py <br>
+ ┣ 📂screenshots 
+ ┃ ┗ 📜screenshot_1.png <br>
+ ┣ 📜.env <br>
+ ┣ 📜.gitignore <br>
+ ┣ 📜app.py <br>
+ ┣ 📜file_tree.txt <br>
+ ┣ 📜README.md <br>
+ ┗ 📜requirements.txt <br>
 
 ## Tech Used
 
