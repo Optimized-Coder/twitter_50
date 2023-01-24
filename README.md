@@ -14,7 +14,7 @@
 
 ## Screenshots
 
-![Home Page](/screenshots/sceenshot_1.png)
+<img src="screenshots/screenshot_1" alt="Main Page" title="Main Page">
 
 ## File tree
 📦twitter_50 <br>
